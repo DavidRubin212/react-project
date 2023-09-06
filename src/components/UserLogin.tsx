@@ -28,7 +28,7 @@ export default function UserLogin() {
       .then(result => {
         console.log(result);
         if (result.message === "Login successful") {
-          const Token = result.data.responseObj.token;
+          const Token = result.responseObj.token;
           localStorage.setItem('Token', Token)
           setLoginSuccess(true); // Set loginSuccess to true to render Trip
         }

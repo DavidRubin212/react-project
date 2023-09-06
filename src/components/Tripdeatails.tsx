@@ -32,7 +32,7 @@ export default function Tripdeatails() {
 
   return (
     <>
-    <header id="header"><Link to="/Home">Home page</Link></header>
+    <header id="header"><Link to="/Home/trips">Home page</Link></header>
 
     <div id="tripCard">
         {
