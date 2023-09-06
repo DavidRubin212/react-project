@@ -15,7 +15,8 @@ export default function AppRouter() {
 			<Route path="/Home/login" element={<UserLogin />} />
 			<Route path="/Home/trips" element={<Trip />} />
 			<Route path="/Home/trips/new" element={<NewTripForm/>} />
-			<Route path="/Home/trip/deatail" element={<Tripdeatails/>} />
+			<Route path="/Home/trip/deatail/:id" element={<Tripdeatails/>} />
+ 
     
 		</Routes>
 	);

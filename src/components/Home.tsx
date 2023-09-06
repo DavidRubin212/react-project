@@ -9,7 +9,6 @@ export default function Home() {
 			<div style={{display:"flex"}}>
 				{/* <button onClick={() => setShow(!show)}>Trips</button>
 				{show ? <Trip /> : null} */}
-				<button><Link to="/Home/trips">All Trips</Link></button>
 				<button><Link to="/Home/register">Register</Link></button>
 				<button><Link to="/Home/login">Login</Link></button>
 			</div>

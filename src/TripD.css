@@ -1,0 +1,62 @@
+/* Typography */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: hsl(210, 35%, 55%);
+  }
+  
+  h1, 
+  h2,
+  h3,
+  h4,
+  h5 {
+    font-weight: 600;
+  }
+  
+  /* Layout */
+  #header {
+    background-color: #006994;
+    color: #fff;
+    padding: 1.5rem;
+    text-align: center;
+  }
+  
+  #tripCard {
+    max-width: 1000px;
+    margin: 2rem auto;
+    padding: 2rem 3rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  #imgCard {
+    max-width: 100%;
+    height: auto;
+    margin: 2rem 0;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    border-radius: 10px;
+  }
+  
+  #footer {
+    background-color: #222;
+    color: #fff;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  /* Misc */
+  #tripCard p {
+    line-height: 1.8;
+  }
+  
+  #header a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  @media (max-width: 600px) {
+    #tripCard {
+      padding: 1.5rem;
+    }
+  }
