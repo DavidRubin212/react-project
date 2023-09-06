@@ -32,9 +32,9 @@ export default function Tripdeatails() {
 
   return (
     <>
-    <header id="header"><Link to="/Home/trips">Home page</Link></header>
+     <button id="header"><Link to="/Home/trips">Home page</Link></button>
 
-    <div id="tripCard">
+    <div id="tripCard" style={{backgroundColor:'turquoise'}}>
         {
             <>
                 <h1>{detail?.name}</h1>

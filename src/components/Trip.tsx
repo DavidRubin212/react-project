@@ -45,7 +45,7 @@ export default function Trip() {
   return (
     <>
       <div className="page-container">
-        <Link to="/Home">Home page</Link>
+        <button><Link to="/Home">Log out</Link></button>
         <button>
           <Link to="/Home/trips/new">Create new</Link>
         </button>
